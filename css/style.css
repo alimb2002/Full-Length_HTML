@@ -1,0 +1,106 @@
+*{
+     margin: 0;
+    padding: 0;
+}
+body{
+ 
+    font-size: 15px;
+    line-height: 1.9em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:#500000;
+}
+#showcase{
+    background-image:url('../images/beach.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+#showcase nav{
+    position: absolute;
+    top:10px;
+  }
+nav ul li{
+    float: left;
+    padding: 0 20px;
+    list-style-type: none;
+    color: #eee;
+    font-size: 14px;
+}
+
+#showcase h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height:1.4em;
+    text-align: center;
+    }
+#showcase p{
+    font-size: 17px;
+    text-align: center;
+}
+#showcase .button{
+    text-decoration: none;
+    color: #500000;
+    border: 1px solid #500000;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 2s;
+    
+}
+#showcase .button:hover{
+    background-color: #500000;
+}
+
+main{
+    margin-top: 30px;
+}
+ .wrapper{
+    width: 80%;
+    margin: auto;
+    
+}
+
+main ul li{
+    float: left;
+    width: 30%;
+    list-style-type:none; 
+    text-align: center;
+}
+main ul li:nth-child(2){
+    margin : 0 5%;
+    
+}
+main h2{
+    font-size: 18px;
+    margin: 15px 0;
+}
+main img{
+    width: 60%;
+}
+main:after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.cls{
+    clear: both;
+}
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background: #240c00;
+}
+footer h5{
+    color: #eee;
+    text-align: center;
+    padding: 30px;
+}
+
+
